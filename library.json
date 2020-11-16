@@ -27,7 +27,7 @@
             "morse.h",
             "keywords.txt",
             "README.md",
-            "examples/*/*.[ch]"
+            "examples/*/*.*"
         ]
     },
     "examples": [
