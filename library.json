@@ -1,0 +1,64 @@
+{
+    "name": "arduinomorse",
+    "keywords": "morse, io, digital, encoder, communication, async",
+    "description": "Morse for Arduino, with Non-Blocking Sending ",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/CSharperMantle/http-parser-arduino.git"
+    },
+    "version": "1.0.0",
+    "authors": [
+        {
+            "name": "Mark Fickett",
+            "url": "http://www.markfickett.com/",
+            "maintainer": true
+        },
+        {
+            "name": "CSharperMantle",
+            "email": "mantlejonse@foxmail.com",
+            "url": "https://csharpermantle.github.io"
+        }
+    ],
+    "platforms": ["atmelavr"],
+    "frameworks": ["arduino"],
+    "export": {
+        "include": [
+            "morse.cpp",
+            "morse.h",
+            "keywords.txt",
+            "README.md",
+            "examples/*/*.[ch]"
+        ]
+    },
+    "examples": [
+        {
+            "name": "concurrent",
+            "base": "examples/concurrent",
+            "files": [
+                "concurrent.ino"
+            ]
+        },
+        {
+            "name": "simple",
+            "base": "examples/simple",
+            "files": [
+                "simple.ino"
+            ]
+        },
+        {
+            "name": "parsertrace",
+            "base": "examples/parsertrace",
+            "files": [
+                "parsertrace.c"
+            ]
+        },
+        {
+            "name": "speeds",
+            "base": "examples/speeds",
+            "files": [
+                "speeds.ino"
+            ]
+        }
+    ],
+    "license": "CC-BY-3.0"
+}
